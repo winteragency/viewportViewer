@@ -1,6 +1,6 @@
 {
   "name": "viewportviewer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Drop-in utility to show viewport size in the lower right corner for development",
   "author": {
     "name": "WINTER",
