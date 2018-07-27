@@ -7,6 +7,7 @@ This is a simple drop-in utility to show viewport size in the lower right corner
 ## Usage
 
 `npm i viewportviewer --save-dev`
+
 `yarn add viewportviewer --dev`
 
 Then include `viewportviewer.js` or `./dist/viewportviewer.min.js` however you prefer.
@@ -15,24 +16,25 @@ Alternatively, you can add your own CSS styling on the `#viewportviewer` selecto
 
 ```css
 #viewportviewer {
-	font-size: 1.1rem;
-	font-weight: bold;
-	z-index: 9999;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	color: #ffffff;
-	background: #071c2c;
-	padding: 1.2rem;
-	cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: bold;
+  z-index: 9999;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: #ffffff;
+  background: #071c2c;
+  padding: 1.2rem;
+  cursor: pointer;
 }
 ```
 
 You can also load the file(s) from unpkg:
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/viewportviewer@1.0.0/dist/viewportviewer.min.css">
-<script src="https://unpkg.com/viewportviewer@1.0.0/dist/viewportviewer.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/viewportviewer@latest/dist/viewportviewer.min.css">
+
+<script src="https://unpkg.com/viewportviewer@latest/dist/viewportviewer.min.js"></script>
 ```
 
 Additionally, you can add whatever logic is needed for your stack in order to only run this in development and/or staging.
