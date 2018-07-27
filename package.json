@@ -1,0 +1,25 @@
+{
+  "name": "viewportviewer",
+  "version": "1.0.0",
+  "description": "Drop-in utility to show viewport size in the lower right corner for development",
+  "author": {
+    "name": "WINTER",
+    "email": "info@winteragency.se",
+    "url": "https://wintergency.se"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/winteragency/viewportviewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/winteragency/viewportviewer/issues"
+  },
+  "homepage": "https://github.com/winteragency/viewportviewer",
+  "keywords": [
+    "viewport",
+    "viewer",
+    "development",
+    "responsive"
+  ]
+}
